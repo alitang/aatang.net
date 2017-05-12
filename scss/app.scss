@@ -1,0 +1,114 @@
+/* TYPOGRAPHY */
+
+h1 {
+    font-size: 1.5em;
+    letter-spacing: .15em;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 1.313em;
+    letter-spacing: .05em;
+    font-family: 'Times New Roman', serif;
+}
+
+a,
+a:link,
+a:focus {
+    color: black;
+}
+
+a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+
+/* LAYOUT */
+
+.top-bar {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    z-index: 10;
+    padding: 1.5em 0 .5em 0;
+    transition: padding .25s ease;
+    h1 {
+        font-family: 'Arial', sans-serif;
+        font-style: italic;
+        transition: font-size .25s ease;
+    }
+    ul#main-nav {
+        background-color: #fff;
+        transition: .25s ease;
+        li {
+            display: inline;
+            padding: 0 .5em 0 .5em;
+            font-size: 1.5em;
+            transition: .25s ease;
+        }
+    }
+    &.shrink {
+        padding: 1em 0 0 0;
+        h1 {
+            font-size: 1.313em;
+        }
+        ul#main-nav {
+            margin-top: -.5em;
+            li {
+                padding: 0 .4em 0 .4em;
+                font-size: 1.313em;
+            }
+        }
+    }
+}
+
+.active {
+    text-decoration: underline !important;
+    color: #ff0000 !important;
+}
+
+
+/*#introspace {
+    img {
+        border: 4em;
+        border-style: solid;
+        border-color: lightyellow;
+    }
+}*/
+
+#aboutspace {
+    img {
+        margin-bottom: 2em;
+    }
+}
+
+#work-nav {
+    hr {
+        margin-bottom: 5em;
+    }
+    .overlay-container {
+        position: relative;
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            opacity: 1;
+            transition: opacity .25s ease-in-out;
+        }
+        .overlay:hover {
+            opacity: 0;
+        }
+    }
+    #last {
+        margin-bottom: 0em;
+    }
+}
+
+#contactspace {
+    img {
+        width: 30%;
+    }
+}
