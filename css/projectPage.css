@@ -18,6 +18,9 @@ h3 {
     letter-spacing: .03em;
 }*/
 /*LAYOUT*/
+@media print, screen and (min-width: 64em) {
+  .top-bar .large-4 {
+    width: 35%; } }
 .top-bar .current {
   color: #ff0000;
   text-decoration: underline; }
@@ -37,7 +40,12 @@ h2.linkto {
   margin-bottom: 3em; }
 #project #blurb .columns {
   padding: 0em !important; }
+@media print, screen and (min-width: 64em) {
+  #project #blurb .large-7 {
+    width: 63%; } }
 #project hr {
+  max-width: 68rem;
+  border-bottom: 1px solid black;
   margin-top: 3em;
   margin-bottom: 3em; }
 #project #project-details img {
@@ -45,7 +53,7 @@ h2.linkto {
   text-align: center; }
 #project #project-details #centered {
   text-align: center !important; }
-#project #project-details #row-spacing {
+#project #project-details #spacing {
   margin-bottom: 3em; }
 
 /*# sourceMappingURL=projectPage.css.map */

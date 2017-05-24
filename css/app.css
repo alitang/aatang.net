@@ -25,6 +25,9 @@ a:hover {
 .row {
   max-width: 68rem; }
 
+#column-no-pad {
+  padding: 0em !important; }
+
 .top-bar {
   position: absolute;
   background: #fff;
@@ -46,8 +49,6 @@ a:hover {
   .top-bar.shrink {
     padding-top: 2em;
     padding-bottom: 1em; }
-  .top-bar #column-no-pad {
-    padding: 0em !important; }
 
 .active {
   text-decoration: underline !important;
