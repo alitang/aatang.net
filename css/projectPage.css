@@ -1,21 +1,22 @@
 /*TYPOGRAPHY*/
-h1 {
-  font-size: 1.5em;
-  font-family: 'Times New Roman', serif;
-  letter-spacing: .05em; }
-
+/*h1 {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: .05em;
+    //font-weight: 600;
+}*/
 h3 {
   font-size: 1.125em;
   font-family: 'Times New Roman', serif;
   letter-spacing: .05em;
   font-style: italic;
-  margin-top: -.1em; }
+  margin-top: -.2em; }
 
-p {
-  font-family: 'Times New Roman', serif;
-  font-size: 1.2em;
-  letter-spacing: .03em; }
-
+/*p {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.2em;
+    letter-spacing: .03em;
+}*/
 /*LAYOUT*/
 .top-bar .current {
   color: #ff0000;
@@ -37,7 +38,6 @@ h2.linkto {
 #project #blurb .columns {
   padding: 0em !important; }
 #project hr {
-  border: solid black .5px;
   margin-top: 3em;
   margin-bottom: 3em; }
 #project #project-details img {
