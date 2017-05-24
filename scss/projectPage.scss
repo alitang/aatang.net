@@ -1,16 +1,24 @@
 /*TYPOGRAPHY*/
 
+h1 {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: .05em;
+    //font-weight: 600;
+}
+
 h3 {
     font-size: 1.125em;
     font-family: 'Times New Roman', serif;
     letter-spacing: .05em;
     font-style: italic;
+    margin-top: -.1em;
 }
 
 p {
     font-family: 'Times New Roman', serif;
     font-size: 1.2em;
-    letter-spacing: .05em;
+    letter-spacing: .03em;
 }
 
 
@@ -19,46 +27,8 @@ p {
 .top-bar {
     .current {
         color: #ff0000;
-        //background: none;
         text-decoration: underline;
     }
-    &.shrink {
-        ul#main-nav {
-            margin-top: -.3em;
-        }
-    }
-    /*ul#projects-nav {
-        text-align: center;
-        margin-top: -.5em;
-        transition: .25s ease;
-        background-color: #fff;
-        li {
-            display: inline;
-            font-family: 'Arial', sans-serif;
-            font-size: 1.5em;
-            a:hover {
-                //background: none;
-                text-decoration: underline;
-                color: #ff0000;
-            }
-        }
-        .disabled {
-            color: lightgray;
-        }
-        .current {
-            color: #ff0000;
-            //background: none;
-            text-decoration: underline;
-        }
-    }
-    &.shrink {
-        ul#projects-nav {
-            margin-top: -.5em;
-            li {
-                font-size: 1.313em;
-            }
-        }
-    }*/
 }
 
 h2.linkto {
@@ -76,27 +46,30 @@ h2.linkto {
 }
 
 #project {
-    margin-top: 5em;
+    #header-img {
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
     #blurb {
-        .icon {
-            width: 70%;
-            padding: 0em 0em 1.5em 0em !important;
+        .columns {
+            padding: 0em !important;
         }
     }
     hr {
-        margin-top: 5em;
-        margin-bottom: 5em;
-    }
-    img {
-        padding: .5em;
+        border: solid black .5px;
+        margin-top: 3em;
+        margin-bottom: 3em;
     }
     #project-details {
-        text-align: left;
-        #row-spacing {
-            margin-bottom: 5em;
+        img {
+            padding: .7em;
+            text-align: center;
         }
-        #column-no-padding {
-            padding: 0em;
+        #centered {
+            text-align: center !important;
+        }
+        #row-spacing {
+            margin-bottom: 3em;
         }
     }
 }

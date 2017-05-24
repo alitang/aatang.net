@@ -14,8 +14,6 @@
 
     <!-- Foundation CSS -->
     <link rel="stylesheet" href="css/foundation.min.css">
-    <!-- Scrolling Nav CSS -->
-    <link rel="stylesheet" href="css/scrolling-nav.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/app.css">
 
@@ -26,75 +24,81 @@
     <!-- Navigation -->
     <div data-sticky-container id="nav-container">
         <div class="top-bar" data-sticky data-margin-top="0">
-            <nav data-magellan data-options="barOffset:50; threshold:150;" activeClass="active">
-                <h1>alicia tang</h1>
-                <ul id="main-nav" class="no-bullet">
-                    <li><a href="#aboutspace">a</a></li>
-                    <li><a href="#workspace">w</a></li>
-                    <li><a href="#contactspace">c</a></li>
-                </ul>
+            <nav data-magellan data-options="barOffset:30; threshold:140;" activeClass="active">
+                <div class="row small-11 medium-11 columns">
+                    <div class="top-bar-left">
+                        <a href="index.html">Alicia Tang</a>
+                        <!--<br>
+                        <a href="#aboutspace">About</a>, <a href="#workspace">Projects</a>, <a href="#contactspace">Contact</a>-->
+                    </div>
+                    <div class="top-bar-right">
+                        <a href="#aboutspace">About</a>, <a href="#workspace">Projects</a>, <a href="#contactspace">Contact</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </div>
 
-    <!--<section class="section" id="introspace">
-        <div class="small-10 medium-6 large-4 small-centered columns">
-            <img src="imgs/alicia-bw.png">
-        </div>
-    </section>-->
-
     <section class="section" id="aboutspace" data-magellan-target="aboutspace">
-        <div class="small-11 medium-6 large-6 small-centered columns">
-            <div class="small-3 medium-3 large-2 small-centered columns">
+        <div class="small-11 medium-7 large-6 small-centered columns">
+            <div class="small-3 medium-2 large-2 small-centered columns">
                 <img src="imgs/about.gif"></div>
             <h2>
-                A San Francisco-based digital product designer, inspired by design that is simple, expressive and experiential.
+                A digital product designer located in San Francisco, passionate about branding and experiences.
                 <br><br> Also a sentimental pancakes-lover. Non-pancake aspirations include running a marathon, parenting a dog and trying (almost) everything at least once.
             </h2>
         </div>
+        <!--<div class="row">
+            <div class="small-11 medium-7 large-8 columns">
+                <h2>
+                    <img src="imgs/about.gif">
+                    <br> Digital product designer located in San Francisco, passionate about branding and experiences.
+                    <br><br> Also a sentimental pancakes-lover. Non-pancake aspirations include running a marathon, parenting a dog and trying (almost) everything at least once.
+                </h2>
+            </div>
+        </div>-->
     </section>
 
     <section class="section" id="workspace" data-magellan-target="workspace">
-        <div class="small-12 medium-10 large-11 small-centered columns" id="work-nav">
-            <hr>
-            <div class="row small-up-1 medium-up-2 large-up-2">
+        <div id="work-nav">
+            <div class="row small-up-1 medium-up-2 large-up-2 medium-11">
                 <div class="column column-block">
                     <div class="overlay-container">
                         <a href="storyspace.html">
-                            <img src="imgs/thumbnails/storyspace.png">
-                            <img class="overlay" src="imgs/thumbnails/storyspace-bw.jpg">
+                            <img src="imgs/thumbnails/storyspace-title.jpg">
+                            <img class="overlay" src="imgs/thumbnails/storyspace2.jpg">
                         </a>
                     </div>
                 </div>
                 <div class="column column-block">
                     <div class="overlay-container">
                         <a href="coffee.html">
-                            <img src="imgs/thumbnails/coffee.png">
-                            <img class="overlay" src="imgs/thumbnails/coffee-bw.jpg">
+                            <img src="imgs/thumbnails/coffee-title.jpg">
+                            <img class="overlay" src="imgs/thumbnails/coffee.jpg">
                         </a>
                     </div>
                 </div>
                 <div class="column column-block">
                     <div class="overlay-container">
                         <a href="edna.html">
-                            <img src="imgs/thumbnails/edna.png">
-                            <img class="overlay" src="imgs/thumbnails/edna-bw.png">
+                            <img src="imgs/thumbnails/edna-title.jpg">
+                            <img class="overlay" src="imgs/thumbnails/edna2.jpg">
                         </a>
                     </div>
                 </div>
                 <div class="column column-block">
                     <div class="overlay-container">
                         <a href="dcf.html">
-                            <img src="imgs/thumbnails/dcf.png">
-                            <img class="overlay" src="imgs/thumbnails/dcf-bw.jpg">
+                            <img src="imgs/thumbnails/dcf-title.jpg">
+                            <img class="overlay" src="imgs/thumbnails/dcf2.jpg">
                         </a>
                     </div>
                 </div>
                 <div class="column column-block">
-                    <div class="overlay-container" id="last">
+                    <div class="overlay-container">
                         <a href="boogie.html">
-                            <img src="imgs/thumbnails/boogie.png">
-                            <img class="overlay" src="imgs/thumbnails/boogie-bw.jpg">
+                            <img src="imgs/thumbnails/boogie-title.jpg">
+                            <img class="overlay" src="imgs/thumbnails/boogie.jpg">
                         </a>
                     </div>
                 </div>
@@ -103,16 +107,20 @@
     </section>
 
     <section class="section" id="contactspace" data-magellan-target="contactspace">
-        <div class="row">
-            <div class="small-10 medium-6 large-5 small-centered columns">
-                <h2>
-                    <img src="imgs/contact.gif"><br><br> Contact me at:
-                    <br>
-                    <a href="mailto:aalitang@gmail.com ">aalitang@gmail.com</a>
-                    <br>
-                    <a href="imgs/resume.pdf">Resume</a> &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/aatang5">LinkedIn</a> &nbsp;|&nbsp; <a href="http://alitang.tumblr.com/">Tumblr</a>
-                </h2>
+        <div class="row small-11">
+            <div class="small-5 medium-2 large-2 float-right columns">
+                <img src="imgs/contact.gif">
             </div>
+        </div>
+        <div class="row small-11 columns">
+            <h2>
+                More about me:
+                <br>
+                <a href="imgs/resume.pdf">Resume</a>, <a href="https://www.linkedin.com/in/aatang5">LinkedIn</a>, <a href="http://alitang.tumblr.com/">Tumblr</a>
+                <br><br> Contact me at:
+                <br>
+                <a href="mailto:aalitang@gmail.com ">aalitang@gmail.com</a>
+            </h2>
         </div>
     </section>
 
@@ -120,9 +128,6 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.min.js"></script>
-
-    <!-- Scrolling Nav JS -->
-    <script src="js/scrolling-nav.js"></script>
 
     <!-- Custom JS -->
     <script src="js/app.js"></script>

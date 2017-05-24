@@ -1,54 +1,25 @@
 /*TYPOGRAPHY*/
+h1 {
+  font-size: 1.5em;
+  font-family: 'Times New Roman', serif;
+  letter-spacing: .05em; }
+
 h3 {
   font-size: 1.125em;
   font-family: 'Times New Roman', serif;
   letter-spacing: .05em;
-  font-style: italic; }
+  font-style: italic;
+  margin-top: -.1em; }
 
 p {
   font-family: 'Times New Roman', serif;
   font-size: 1.2em;
-  letter-spacing: .05em; }
+  letter-spacing: .03em; }
 
 /*LAYOUT*/
-.top-bar {
-  /*ul#projects-nav {
-      text-align: center;
-      margin-top: -.5em;
-      transition: .25s ease;
-      background-color: #fff;
-      li {
-          display: inline;
-          font-family: 'Arial', sans-serif;
-          font-size: 1.5em;
-          a:hover {
-              //background: none;
-              text-decoration: underline;
-              color: #ff0000;
-          }
-      }
-      .disabled {
-          color: lightgray;
-      }
-      .current {
-          color: #ff0000;
-          //background: none;
-          text-decoration: underline;
-      }
-  }
-  &.shrink {
-      ul#projects-nav {
-          margin-top: -.5em;
-          li {
-              font-size: 1.313em;
-          }
-      }
-  }*/ }
-  .top-bar .current {
-    color: #ff0000;
-    text-decoration: underline; }
-  .top-bar.shrink ul#main-nav {
-    margin-top: -.3em; }
+.top-bar .current {
+  color: #ff0000;
+  text-decoration: underline; }
 
 h2.linkto {
   margin: 1em 0 1em 0; }
@@ -60,21 +31,21 @@ h2.linkto {
   h2.linkto img {
     padding: 0em !important; }
 
-#project {
-  margin-top: 5em; }
-  #project #blurb .icon {
-    width: 70%;
-    padding: 0em 0em 1.5em 0em !important; }
-  #project hr {
-    margin-top: 5em;
-    margin-bottom: 5em; }
-  #project img {
-    padding: .5em; }
-  #project #project-details {
-    text-align: left; }
-    #project #project-details #row-spacing {
-      margin-bottom: 5em; }
-    #project #project-details #column-no-padding {
-      padding: 0em; }
+#project #header-img {
+  margin-top: 2em;
+  margin-bottom: 3em; }
+#project #blurb .columns {
+  padding: 0em !important; }
+#project hr {
+  border: solid black .5px;
+  margin-top: 3em;
+  margin-bottom: 3em; }
+#project #project-details img {
+  padding: .7em;
+  text-align: center; }
+#project #project-details #centered {
+  text-align: center !important; }
+#project #project-details #row-spacing {
+  margin-bottom: 3em; }
 
 /*# sourceMappingURL=projectPage.css.map */
