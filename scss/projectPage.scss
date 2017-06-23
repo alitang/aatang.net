@@ -59,6 +59,7 @@ h2.linkto {
         margin-bottom: 3em;
     }
     #blurb {
+        margin-bottom: 3em;
         .columns {
             padding: 0em !important;
         }
@@ -76,9 +77,15 @@ h2.linkto {
         margin-bottom: 3em;
     }
     #project-details {
+        #final-container {
+            background: #f2f2f2;
+            padding-top: 4em;
+            padding-bottom: 4em;
+        }
+        #process-container {}
         img {
-            padding: .7em;
-            text-align: center;
+            padding: 1em;
+            //text-align: center;
         }
         #centered {
             text-align: center !important;
