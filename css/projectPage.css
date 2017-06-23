@@ -45,20 +45,22 @@ h2.linkto {
   @media print, screen and (min-width: 64em) {
     #project #blurb .large-7 {
       width: 63%; } }
-#project hr {
-  max-width: 68rem;
-  border-bottom: 1px solid black;
-  margin-top: 3em;
-  margin-bottom: 3em; }
 #project #project-details #final-container {
   background: #f2f2f2;
   padding-top: 4em;
   padding-bottom: 4em; }
+#project #project-details #process-container {
+  padding-top: 4em;
+  padding-bottom: 3em; }
 #project #project-details img {
   padding: 1em; }
 #project #project-details #centered {
   text-align: center !important; }
 #project #project-details #spacing {
   margin-bottom: 3em; }
+
+hr {
+  max-width: 100%;
+  border-bottom: 1px solid lightgray; }
 
 /*# sourceMappingURL=projectPage.css.map */
