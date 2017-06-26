@@ -1,32 +1,30 @@
 /*TYPOGRAPHY*/
 
-
-/*h1 {
+h1 {
     font-size: 1.5em;
     font-family: 'Times New Roman', serif;
-    letter-spacing: .05em;
-    //font-weight: 600;
-}*/
+    letter-spacing: .03em;
+}
 
 h3 {
-    font-size: 1.125em;
+    font-size: 1.313em;
     font-family: 'Times New Roman', serif;
     letter-spacing: .05em;
     font-style: italic;
-    margin-top: -.2em;
+    margin-top: -.3em;
 }
-
-
-/*p {
-    font-family: 'Times New Roman', serif;
-    font-size: 1.2em;
-    letter-spacing: .03em;
-}*/
 
 
 /*LAYOUT*/
 
 .top-bar {
+    /*#gray {
+        color: lightgray;
+    }*/
+}
+
+
+/*.top-bar {
     @media print,
     screen and (min-width: 64em) {
         .large-4 {
@@ -37,7 +35,7 @@ h3 {
         color: #ff0000;
         text-decoration: underline;
     }
-}
+}*/
 
 h2.linkto {
     margin: 1em 0 1em 0;
@@ -55,7 +53,7 @@ h2.linkto {
 
 #project {
     #header-img {
-        margin-top: 2em;
+        margin-top: 3em;
         margin-bottom: 3em;
     }
     #blurb {
@@ -63,26 +61,25 @@ h2.linkto {
         .columns {
             padding: 0em !important;
         }
-        @media print,
+        /*@media print,
         screen and (min-width: 64em) {
             .large-7 {
                 width: 63%;
             }
-        }
+        }*/
     }
     #project-details {
         #final-container {
             background: #f2f2f2;
             padding-top: 4em;
-            padding-bottom: 4em;
+            padding-bottom: 3em;
         }
         #process-container {
             padding-top: 4em;
-            padding-bottom: 3em;
+            //padding-bottom: 3em;
         }
         img {
             padding: 1em;
-            //text-align: center;
         }
         #centered {
             text-align: center !important;
@@ -90,10 +87,8 @@ h2.linkto {
         #spacing {
             margin-bottom: 3em;
         }
+        .column-block {
+            padding: 0 !important;
+        }
     }
-}
-
-hr {
-    max-width: 100%;
-    border-bottom: 1px solid lightgray;
 }

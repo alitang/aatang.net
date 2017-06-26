@@ -39,12 +39,20 @@ a:hover {
     padding: 0em !important;
 }
 
+hr {
+    max-width: 100%;
+    border-bottom: 1px solid black;
+    padding-top: 2em;
+}
+
 .top-bar {
     position: absolute;
     background: #fff;
     width: 100%;
+    border-bottom: 1px solid black;
     z-index: 10;
-    padding-top: 4em;
+    padding-top: 3em;
+    padding-bottom: 1em;
     transition: padding .25s ease;
     .top-bar-left,
     .top-bar-right {
@@ -53,7 +61,6 @@ a:hover {
         letter-spacing: .05em;
     }
     .top-bar-right {
-        //float: right;
         text-align: right;
     }
     @media print,
@@ -64,7 +71,7 @@ a:hover {
         }
     }
     &.shrink {
-        padding-top: 2em;
+        padding-top: 1em;
         padding-bottom: 1em;
     }
 }
@@ -78,15 +85,11 @@ a:hover {
     padding: 7em 0 6em 0;
     text-align: center;
     img {
-        margin-bottom: 1.5em;
+        margin-bottom: 1.7em;
     }
 }
 
 #work-nav {
-    .column-block {
-        //padding: 0em;
-        //margin-bottom: 0em;
-    }
     .overlay-container {
         position: relative;
         .overlay {
@@ -105,9 +108,10 @@ a:hover {
 }
 
 #contactspace {
-    text-align: right;
-    padding: 4em 0 4em 0;
+    padding-top: 2em;
+    padding-bottom: 3em;
     img {
-        margin-bottom: 1.5em;
+        width: 90%;
+        margin-bottom: 1.7em;
     }
 }

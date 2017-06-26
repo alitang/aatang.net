@@ -28,12 +28,19 @@ a:hover {
 #column-no-pad {
   padding: 0em !important; }
 
+hr {
+  max-width: 100%;
+  border-bottom: 1px solid black;
+  padding-top: 2em; }
+
 .top-bar {
   position: absolute;
   background: #fff;
   width: 100%;
+  border-bottom: 1px solid black;
   z-index: 10;
-  padding-top: 4em;
+  padding-top: 3em;
+  padding-bottom: 1em;
   transition: padding .25s ease; }
   .top-bar .top-bar-left,
   .top-bar .top-bar-right {
@@ -47,7 +54,7 @@ a:hover {
       float: left !important;
       text-align: left !important; } }
   .top-bar.shrink {
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 1em; }
 
 .active {
@@ -58,7 +65,7 @@ a:hover {
   padding: 7em 0 6em 0;
   text-align: center; }
   #aboutspace img {
-    margin-bottom: 1.5em; }
+    margin-bottom: 1.7em; }
 
 #work-nav .overlay-container {
   position: relative; }
@@ -74,9 +81,10 @@ a:hover {
     opacity: 0; }
 
 #contactspace {
-  text-align: right;
-  padding: 4em 0 4em 0; }
+  padding-top: 2em;
+  padding-bottom: 3em; }
   #contactspace img {
-    margin-bottom: 1.5em; }
+    width: 90%;
+    margin-bottom: 1.7em; }
 
 /*# sourceMappingURL=app.css.map */
