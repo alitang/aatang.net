@@ -6,6 +6,15 @@ h1 {
     letter-spacing: .03em;
 }
 
+#subheader {
+    //text-decoration: underline;
+}
+
+#block-text {
+    letter-spacing: .03em;
+    margin-top: 1.5em;
+}
+
 h3 {
     font-size: 1.313em;
     font-family: 'Times New Roman', serif;
@@ -76,7 +85,6 @@ h2.linkto {
         }
         #process-container {
             padding-top: 4em;
-            //padding-bottom: 3em;
         }
         img {
             padding: 1em;

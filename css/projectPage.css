@@ -4,6 +4,10 @@ h1 {
   font-family: 'Times New Roman', serif;
   letter-spacing: .03em; }
 
+#block-text {
+  letter-spacing: .03em;
+  margin-top: 1.5em; }
+
 h3 {
   font-size: 1.313em;
   font-family: 'Times New Roman', serif;
